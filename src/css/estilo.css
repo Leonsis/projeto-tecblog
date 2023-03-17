@@ -1,0 +1,181 @@
+/* GERAL */
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+} 
+
+p {
+    text-align: justify;
+}
+
+/* CABECALHO */
+#cabecalho {
+    text-align: center;
+    background-color: #f7b600;
+    padding: 10px;
+}
+
+#logo {
+    padding: 10px;
+    font-size: 2.5em;
+}
+
+#logo h1 {
+    color: #4e4e4e;
+}
+
+.branco {
+    color: #fff;
+}
+
+#menuprincipal {
+    padding: 10px;
+    margin: 10px;
+}
+
+#menuprincipal a {
+    padding: 10px;
+    margin: 10px;
+}
+
+#menuprincipal a:link, 
+#menuprincipal a:visited {
+    color: #fff;
+}
+
+#menuprincipal a:hover {
+    background-color: #fff;
+    color: #f7b600;
+}
+
+/* CONTEUDO */
+#conteudo {
+    width: 65%;
+    margin: 10px auto ;
+    min-width: 700px;
+}
+
+.clear {
+    clear: both;
+}
+
+#conteudo a {
+    color: #f7b600;
+}
+
+#conteudo a:hover {
+    text-decoration: underline;
+}
+
+#postagens, #tabela {
+    width: 55%;
+    padding: 15px;
+    background-color: #fff;
+    float: left;
+}
+
+#postagens h2{
+    font-size: 1.5em;
+}
+
+#postagens .datapostagem {
+    display: block;
+    font-size: 0.7em;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 5px;
+}
+
+#postagens img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#tabela th, #tabela td{
+    padding: 7px;
+}
+
+#tabela th{
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid #f7b600;
+    border-top: 1px solid #f7b600;
+}
+
+#tabela .alternado {
+    background-color: #ccc;
+}
+
+#tabela .preço {
+    text-align: right;
+}
+
+#tabela tr:hover {
+    background-color: #f7b600;
+    color: #fff;
+}
+
+#conteudolateral {
+    width: 30%;
+    min-width: 200px;
+    float: right;
+}
+
+#postagenslaterais, 
+#menulateral{
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#postagenslaterais h3, 
+#menulateral h3{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #ccc;
+}
+
+#postagenslaterais p {
+    padding: 5px;
+}
+
+#menulateral ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menulateral li{
+    text-align: center;
+}
+
+#menulateral a{
+    display: block;
+}
+
+#menulateral a:hover{
+    background-color: #f7b600;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* RODAPE */
+#rodape {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
